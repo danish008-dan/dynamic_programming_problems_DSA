@@ -127,6 +127,44 @@ Why Learn Dynamic Programming
 
 ------------------------------------------------------------
 
-Author
-------
-Your Name
+Unbounded Knapsack Problem
+==========================
+
+Problem Description
+-------------------
+Given a set of items, each with a weight and a value,
+and a knapsack with a fixed capacity, determine the
+maximum value that can be obtained.
+
+Unlike the 0/1 Knapsack problem, each item can be taken
+an unlimited number of times.
+
+Dynamic Programming Approach
+----------------------------
+A one-dimensional DP array is used where:
+dp[w] represents the maximum value achievable
+with knapsack capacity w.
+
+For each capacity, all items are considered and
+the best possible value is stored.
+
+Key Concepts
+------------
+- Overlapping subproblems
+- Optimal substructure
+- Unbounded choice of items
+- Space optimized DP
+
+Time Complexity
+---------------
+O(n * capacity)
+
+Space Complexity
+----------------
+O(capacity)
+
+Applications
+------------
+- Rod cutting problem
+- Resource allocation with repetition
+- Manufacturing and packing optimization
