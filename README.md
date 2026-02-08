@@ -168,3 +168,77 @@ Applications
 - Rod cutting problem
 - Resource allocation with repetition
 - Manufacturing and packing optimization
+
+Longest Common Subsequence and Longest Increasing Subsequence
+=============================================================
+
+Overview
+--------
+This module covers two important Dynamic Programming problems
+that focus on sequence comparison and optimization.
+
+------------------------------------------------------------
+
+1. Longest Common Subsequence (LCS)
+----------------------------------
+
+Problem Description:
+Given two sequences, find the length of the longest subsequence
+that appears in both sequences in the same order.
+
+Dynamic Programming Approach:
+A 2D DP table is used where dp[i][j] represents the length
+of the LCS of the first i characters of string one and
+first j characters of string two.
+
+Time Complexity:
+O(n * m)
+
+Space Complexity:
+O(n * m)
+
+Applications:
+- DNA sequence analysis
+- File comparison tools
+- Version control systems
+
+------------------------------------------------------------
+
+2. Longest Increasing Subsequence (LIS)
+--------------------------------------
+
+Problem Description:
+Given an array of integers, find the length of the longest
+subsequence such that elements are in strictly increasing order.
+
+Dynamic Programming Approach:
+For each index, compute the LIS ending at that index by
+checking all previous elements.
+
+Time Complexity:
+O(n^2)
+
+Space Complexity:
+O(n)
+
+Applications:
+- Stock analysis
+- Sequence optimization
+- Pattern recognition
+
+------------------------------------------------------------
+
+Key DP Concepts Used
+-------------------
+- Tabulation (Bottom-Up DP)
+- Optimal substructure
+- Overlapping subproblems
+
+
+
+
+
+
+
+
+
