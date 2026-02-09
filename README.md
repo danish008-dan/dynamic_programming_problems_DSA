@@ -234,11 +234,76 @@ Key DP Concepts Used
 - Optimal substructure
 - Overlapping subproblems
 
+Matrix Chain Multiplication and Coin Change
+===========================================
 
+Overview
+--------
+This module covers two important Dynamic Programming problems
+focused on optimization and decision making.
 
+------------------------------------------------------------
 
+1. Matrix Chain Multiplication
+------------------------------
 
+Problem Description:
+Given a sequence of matrices, determine the most efficient
+way to multiply them by minimizing the total number of
+scalar multiplications.
 
+Dynamic Programming Approach:
+A 2D DP table is used where dp[i][j] represents the minimum
+cost to multiply matrices from index i to j.
 
+The algorithm tries all possible split points to find
+the optimal solution.
 
+Time Complexity:
+O(n^3)
 
+Space Complexity:
+O(n^2)
+
+Applications:
+- Compiler optimization
+- Expression evaluation
+- Scientific computing
+
+------------------------------------------------------------
+
+2. Coin Change Problem
+---------------------
+
+Problem Description:
+Given a set of coin denominations and a target amount,
+determine the minimum number of coins required to make
+that amount.
+
+Dynamic Programming Approach:
+A one-dimensional DP array is used where dp[x] represents
+the minimum coins needed to form amount x.
+
+This is an example of unbounded knapsack variation.
+
+Time Complexity:
+O(n * amount)
+
+Space Complexity:
+O(amount)
+
+Applications:
+- Currency systems
+- Payment optimization
+- Resource allocation
+
+------------------------------------------------------------
+
+Key Concepts Used
+----------------
+- Tabulation
+- Space Optimization
+- Optimal substructure
+- Overlapping subproblems
+
+----------------------------------------------------------
