@@ -307,3 +307,74 @@ Key Concepts Used
 - Overlapping subproblems
 
 ----------------------------------------------------------
+Subset Sum and Palindrome Dynamic Programming
+=============================================
+
+Overview
+--------
+This module covers two classic Dynamic Programming problems
+that focus on decision making and string optimization.
+
+------------------------------------------------------------
+
+1. Subset Sum Problem
+--------------------
+
+Problem Description:
+Given a set of integers and a target sum, determine whether
+there exists a subset whose elements add up exactly to
+the target value.
+
+Dynamic Programming Approach:
+A 2D DP table is used where dp[i][s] indicates whether
+a sum s can be achieved using the first i elements.
+
+Time Complexity:
+O(n * target)
+
+Space Complexity:
+O(n * target)
+
+Applications:
+- Partition problems
+- Resource allocation
+- Decision making systems
+
+------------------------------------------------------------
+
+2. Palindrome Dynamic Programming
+--------------------------------
+
+Problem Description:
+Given a string, determine the length of the longest
+palindromic subsequence present in the string.
+
+Dynamic Programming Approach:
+A 2D DP table is used where dp[i][j] represents the
+length of the longest palindromic subsequence between
+indices i and j.
+
+Time Complexity:
+O(n^2)
+
+Space Complexity:
+O(n^2)
+
+Applications:
+- Text processing
+- DNA sequence analysis
+- Pattern recognition
+
+------------------------------------------------------------
+
+Key Concepts Used
+----------------
+- Tabulation
+- Optimal substructure
+- Overlapping subproblems
+
+------------------------------------------------------------
+
+Author
+------
+Danish Khatri
